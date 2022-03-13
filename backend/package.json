@@ -2,12 +2,12 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "build": " cd frontend && npm run build",
     "install-client": "cd client && npm install",
     "heroku-postbuild": " npm run install-client &&npm run build",
-    "start": "nodemon app.js"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
